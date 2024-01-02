@@ -27,7 +27,7 @@ elif(mine == comp ):
 
 
 win=game(comp,mine)             #passing both choices to evaluate
-if(win):                        #if true:you win , else :loose
+if(win):                        #if true:you win , else :lose
     print("You Won!")
 else:
     print("You lose")
