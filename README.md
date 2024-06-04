@@ -20,9 +20,9 @@ This is a simple web-based Rock Paper Scissors game developed using Flask. The g
 - On the homepage, select your choice (Rock, Paper, or Scissors) by clicking on the corresponding button.
 - Click the "Submit" button to submit your choice.
 - The result page will display whether you won, lost, or tied the round, along with the appropriate background color indicating the results:
-    - Green: You won the round.
-    - Red: The computer won the round.
-    - Blue: The round was a tie.
+    - **Green:** You won the round.
+    - **Red:** The computer won the round.
+    - **Blue:** The round was a tie.
 - To play again, click the "Replay" button on the result page.
 
 ## Game Logic
