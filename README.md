@@ -1,44 +1,29 @@
-# Rock Paper Scissors Game
+# **Rock Paper Scissors Game**
 
 This is a simple web-based Rock Paper Scissors game developed using Flask. The game allows a user to play against the computer, which randomly selects its move.
 
 ## Prerequisites
 
-- Python 3.x
-- Flask
+**Python 3.x:** Ensure you have Python installed on your system. You can download it from the official Python website.
+**Flask:** A lightweight WSGI web application framework in Python. Flask makes it easy to get started with web development. Install it using pip install flask.
 
-## Installation
+## General Rules for Usage
 
-1. **Clone the repository** (or download the files):
-    ```bash
-    git clone <repository-url>
-    cd <repository-directory>
-    ```
+**Start the Application:**
+- Navigate to the project directory.
+- Run the Flask application :
+                on terminal type : python main.py
+- Open your web browser and go to http://127.0.0.1:5000.
 
-2. **Create a virtual environment** (optional but recommended):
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+**Playing the Game:**
 
-3. **Install Flask**:
-    ```bash
-    pip install flask
-    ```
-
-## Running the Application
-
-1. **Navigate to the project directory**.
-2. **Run the Flask application**:
-    ```bash
-    python app.py
-    ```
-3. **Open your web browser** and go to `http://127.0.0.1:5000` to play the game.
-
-## Application Structure
-
-- `app.py`: Main application file containing the Flask routes and game logic.
-- `templates/`: Directory containing HTML templates for the homepage and result page.
+- On the homepage, select your choice (Rock, Paper, or Scissors) by clicking on the corresponding button.
+- Click the "Submit" button to submit your choice.
+- The result page will display whether you won, lost, or tied the round, along with the appropriate background color indicating the results:
+    - Green: You won the round.
+    - Red: The computer won the round.
+    - Blue: The round was a tie.
+- To play again, click the "Replay" button on the result page.
 
 ## Game Logic
 
@@ -57,6 +42,12 @@ The game consists of the following logic:
 - **`/`** (GET and POST): 
   - **GET**: Renders the homepage where the user can select their choice.
   - **POST**: Processes the user's choice, computes the result, and renders the result page with the outcome.
+
+## Application Structure
+
+- `main.py`: Main application file containing the Flask routes and game logic.
+- `templates/`: Directory containing HTML templates for the homepage and result page.
+- `static/`: Directory containing static files for execution(images,css stylesheets,etc).
 
 ## HTML Templates
 
