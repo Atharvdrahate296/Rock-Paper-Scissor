@@ -12,7 +12,7 @@ This is a simple web-based Rock Paper Scissors game developed using Flask. The g
 **Start the Application:**
 - Navigate to the project directory.
 - Run the Flask application :
-                on terminal type : python main.py
+                on terminal type : -> python main.py
 - Open your web browser and go to http://127.0.0.1:5000.
 
 **Playing the Game:**
